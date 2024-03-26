@@ -8,10 +8,8 @@
       { "src": "/(.*)",
        "dest": "src/app.js" }
     ],
-    "cleanUrls": true,
     "includeFiles": {
-    "routes/**": true,
-      "controllers/**": true
+    "routes/**": true
     }
   }
   
