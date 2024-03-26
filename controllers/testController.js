@@ -1,4 +1,6 @@
-exports.getHome  = (req,res)=>{
-        res.send("puta vercel")
-    }
 
+module.exports = {
+   getHome:()=>{
+    res.send("puta vercel")
+   }
+}
