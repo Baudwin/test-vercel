@@ -1,5 +1,4 @@
-module.exports = {
-    getHome : async(req,res)=>{
+exports.getHome  = (req,res)=>{
+        res.send("puta vercel")
     }
-}
-  
+
