@@ -5,7 +5,7 @@ const user = require("../routes/user")
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 app.set("view engine", "ejs")
-app.use(express.static("public"))
+app.use("/public", express.static("public"))
 
 app.use=(user)
 
