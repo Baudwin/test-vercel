@@ -7,7 +7,7 @@ app.use(express.json())
 app.set("view engine", "ejs")
 app.use("/public", express.static("public"))
 
-app.use=(user)
+app.use(user)
 
 
 
