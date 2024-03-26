@@ -1,8 +1,7 @@
 const router = require('express').Router()
-const testController = require('../controllers/testController')
+const {getHome} = require('../controllers/testController')
 
-router.get("/", testController.getHome)
-
+router.get("/", getHome)
 
 
 module.exports = router
