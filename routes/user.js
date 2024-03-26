@@ -1,8 +1,8 @@
 const router = require('express').Router()
-const {getHome} = require('../controllers/testController')
+const testController = require('../controllers/testController')
 
 
-router.get("/", getHome)
+router.get("/", testController.getHome)
 
 
 
