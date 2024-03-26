@@ -10,13 +10,6 @@ app.use("/public", express.static("public"))
 app.use=(user)
 
 
-app.get("/", async(req,res)=>{
-    res.send("hello vercel")
-
-})
-
-
-
 
 
 app.listen(7000, (err)=>{
