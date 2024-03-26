@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+
+<form action="/login" method="post">
+    <label for="">Select role * </label>
+    <select name="role" id="">
+        <option value="Admin">Admin</option>
+        <option value="User">User</option>
+    </select> <br><br>
+<input placeholder="Enter username" type="text" name="username" id=""> <br> <br>
+<input placeholder="Enter password"  type="text" name="password" id="">
+<button type="submit">Login</button>
+</form>
+
+
+<a href="/newuser">Create new account</a>
+
+<%- include("partials/footer") %>

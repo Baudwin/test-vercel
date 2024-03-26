@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+<h3> CREATE NEW USER ACCOUNT </h3>
+<form action="/adduser" method="post">
+
+    <label for="">Username</label>
+    <input name="name" type="text">
+
+    
+    <label for="">Password</label>
+    <input name="pass" type="text">
+<button type="submit">Create account</button>
+</form>
+
+
+<%- include("partials/footer") %>
