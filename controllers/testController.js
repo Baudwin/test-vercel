@@ -1,11 +1,10 @@
-const cloudinaryUploadd = require('../cloudinary')
+const { cloudinaryUpload } = require("../cloudinary")
 
 module.exports = {
 
    testCloudinary : async(req,res)=>{
-   
    try {
-   const uploadedResponse = await cloudinaryUploadd(req.file.path)
+   const uploadedResponse = await cloudinaryUpload(req.file.path)
    res.send(uploadedResponse)
    } catch (error) {
     console.log(error)
