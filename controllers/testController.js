@@ -1,4 +1,5 @@
-const { cloudinaryUpload } = require("../cloudinary")
+const cloudinaryUpload = require("../cloudinary")
+
 
 module.exports = {
 
