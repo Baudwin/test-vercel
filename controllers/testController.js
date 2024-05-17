@@ -2,16 +2,16 @@ const cloudinaryUploadd = require('../cloudinary')
 
 module.exports = {
 
-   testCloudinary : async(req,res)=>{
+//    testCloudinary : async(req,res)=>{
    
-   try {
-   const uploadedResponse = await cloudinaryUploadd(req.file.path)
-   res.send(uploadedResponse)
-   } catch (error) {
-    console.log(error)
-   }
+//    try {
+//    const uploadedResponse = await cloudinaryUploadd(req.file.path)
+//    res.send(uploadedResponse)
+//    } catch (error) {
+//     console.log(error)
+//    }
   
-  },
+//   },
    
    getHome:(req,res)=>{
     res.send("puta vercel una mama")
