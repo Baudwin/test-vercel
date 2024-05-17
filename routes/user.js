@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const {getHome, testCloudinary} = require('../controllers/testController')
+const {getHome, testCloudinary, checkSomething} = require('../controllers/testController')
 const upload = require('../multer')
 
 router.get("/", getHome)
